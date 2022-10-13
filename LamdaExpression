@@ -1,0 +1,21 @@
+
+  interface cab{
+	  public void Bookcar(String source, String destinantion);
+        }
+  
+  class ola implements cab{
+	  public void Bookcar(String source, String destinantion) {
+		  System.out.println("car is booked from "+source+" "+"to"+" "+destinantion);
+	  }
+  }
+  
+  
+  
+public class Demo {
+
+	public static void main(String[] args) {
+          cab cab=new ola();
+          cab.Bookcar("Pune","Mumbai");
+	}
+
+}
