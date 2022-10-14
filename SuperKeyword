@@ -1,0 +1,22 @@
+public class Test {
+	
+	 int a=10;
+	 
+  }
+public class B extends Test{
+	
+	 int a=20; // Instance variable
+	 
+	   void show(int a) {
+		//   System.out.println(a);      // current value
+		//   System.out.println(this.a); // this keyword refer to current class instance variable
+		   System.out.println(super.a); // super keyword refer to parent class instance variable
+	   }
+
+	public static void main(String[] args) {
+              B b1= new B();
+             b1.show(30);  
+             
+	} 
+
+}
