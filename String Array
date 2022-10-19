@@ -1,0 +1,18 @@
+public class Name {
+
+	public static void main(String[] args) {
+		
+       String []a=new String[5];
+       
+       a[0]="shailesh";
+       a[1]="akshay";
+       a[2]="ram";
+       a[3]="sita";
+       a[4]="rakesh";
+       
+       for (String  b:a) {
+    	   System.out.println(b);
+       }
+	}
+
+}
