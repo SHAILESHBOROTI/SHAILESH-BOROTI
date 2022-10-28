@@ -1,0 +1,33 @@
+package com.ptpl;
+
+public class Data {
+	int i,j,k;
+	// constructor Overloading
+	
+	public Data(int pi, int pj, int pk) {
+		i=pi;
+		j=pj;
+		k=pk;
+	}
+	public Data(int pi, int pj) {
+		i=pi;
+		j=pj;
+		k=0;
+	}
+	public Data(int pi) {
+		i=j=k=pi;
+	}
+	public class TestData {
+
+	public static void main(String[] args) {
+         
+		Data d1= new Data(22,33,44);
+		Data d2= new Data(22,44);
+		Data d3= new Data(22);
+	}
+	
+	
+}
+
+
+}
