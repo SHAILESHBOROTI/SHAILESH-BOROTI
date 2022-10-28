@@ -1,0 +1,23 @@
+package com.ptpl;
+
+public class Student {
+	
+	 String name;
+	 int id;
+	 
+	  Student(String name, int id){
+		  this.id=id;
+		  this.name=name;
+		  
+	  }
+	 
+
+	public static void main(String[] args) {
+        Student s1 = new Student("shailesh",10);
+        Student s2 = new Student("akshay",11);
+        
+        System.out.println("Student id="+s1.id+" student name="+s1.name);
+        System.out.println("student id="+s2.id+" student name="+s2.name);
+	}
+
+}
