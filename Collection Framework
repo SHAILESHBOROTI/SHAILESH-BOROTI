@@ -1,0 +1,55 @@
+package com.ptpl;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo2 {
+
+	public static void main(String[] args) {
+           
+		ArrayList al=new ArrayList(); // we can add Heterogeneous data  
+		
+		// add new elements in arraylist
+		
+		al.add(1234);          // int data type
+		al.add("shailesh");    // string data type
+		al.add(12.1f);         //  decimal no: data type
+		al.add('A');          // char data type
+		al.add(true);        // boolean data type
+		
+		System.out.println(al);   // [1234, shailesh, 12.1, A, true]
+		
+		// Size()
+		System.out.println("Number Of Element In Array="+al.size()); // Number Of Element In Array=5
+		
+		// remove
+		System.out.println(al.remove(1)); // here index 1(shailesh) is removed  // shailesh
+		             // OR \\
+		//System.out.println(al.remove("welcome")); // shailesh
+		
+		System.out.println("after removing 1 element="+al); // after removing 1 element=[1234, 12.1, A, true]
+		
+		// insert a new element
+		 al.add(1, "Python"); //add(index, object)
+		 
+		 System.out.println("After adding a new element="+al); // [1234, Python, 12.1, A, true]
+		 
+		 // Retrieve Specific Element
+		 
+	     System.out.println(al.get(1));	 //Python // here 1 is index of element
+	     
+	     // change or replace the element
+	        al.set(1, "java");
+	        
+	        System.out.println("after replace element="+al); // [1234, java, 12.1, A, true]
+                 
+	    // search-contains gives (boolean value true or false)
+	        
+	        System.out.println(al.contains("java"));// true
+	        
+	      
+	        System.out.println(al.contains("Py")); // false
+	        
+	        System.out.println(al.isEmpty()); //false
+	}
+
+}
