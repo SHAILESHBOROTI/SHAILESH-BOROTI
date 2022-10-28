@@ -1,0 +1,42 @@
+
+public class Student {
+   
+	 private int id;
+	 
+	 public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getF() {
+		return f;
+	}
+	public void setF(float f) {
+		this.f = f;
+	}
+	private String name;
+	 private float f;
+}
+
+public class School {
+
+	public static void main(String[] args) {
+            Student s1=new Student();
+            
+            s1.setId(357535);
+            s1.setF(52825);
+            s1.setName("shailesh");
+            
+            System.out.println(s1.getName());
+            System.out.println(s1.getId());
+            System.out.println(s1.getF());
+	}
+
+}
