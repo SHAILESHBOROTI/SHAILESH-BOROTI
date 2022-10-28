@@ -1,0 +1,30 @@
+public class Data {
+
+		int i,j,k;
+		
+		public void showData() {
+			
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+		}
+		public class TestData {
+
+	public static void main(String[] args) {
+		
+           Data d1 = new Data();
+           Data d2 = new Data();
+           Data d3 = new Data();
+           
+           d1.i=100; d1.j=600; d1.k=700;
+           d2.i=200; d2.j=500; d2.k=800;
+           d3.i=300; d3.j=400; d3.k=900;
+           
+           d1.showData();
+           d2.showData();
+           d3.showData();
+	}
+
+}
+
+	}
