@@ -1,0 +1,48 @@
+package com.getterSetters;
+
+public class car {
+	
+	private int no;
+	private String name;
+	private float rank;
+	private char fev;
+	
+	public int getNo() {
+		return no;
+	}
+	public void setNo(int no) {
+		this.no = no;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getRank() {
+		return rank;
+	}
+	public void setRank(float rank) {
+		this.rank = rank;
+	}
+	public char getFev() {
+		return fev;
+	}
+	public void setFev(char fev) {
+		this.fev = fev;
+	}
+public class Factory {
+
+	public static void main(String[] args) {
+             car c1=new car();
+             
+               c1.setName("Scorpio-N");
+               c1.setNo(5005);
+               c1.setRank(0.01f);
+               c1.setFev('o');
+               
+               System.out.println(c1.getName()+" "+c1.getNo()+" "+c1.getRank()+" "+c1.getFev());
+	}
+
+}
+}
