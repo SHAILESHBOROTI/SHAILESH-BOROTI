@@ -1,0 +1,21 @@
+package com.ptpl;
+
+public class Teacher {
+	
+	String name;
+	int id;
+	
+	Teacher(String name, int id){
+		 this.name=name;
+		 this.id=id;
+	}
+
+	public static void main(String[] args) {
+               Teacher t1=new Teacher("Salunke",1010);
+               Teacher t2=new Teacher("more",1212);
+               
+               System.out.println("1.Teacher Name="+t1.name+" id="+t1.id);
+               System.out.println("2.Teacher Name="+t2.name+" id="+t2.id);
+	}
+
+}
