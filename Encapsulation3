@@ -1,0 +1,25 @@
+public class Company {
+
+	public static void main(String[] args) {
+         Employe e1=new Employe();
+         e1.setId(1010);
+         
+         System.out.println(e1.getId());
+	}
+// Using getter & setter method
+
+public class Employe {
+	 
+	private int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+}
+
+}
