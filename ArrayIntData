@@ -1,0 +1,20 @@
+package com.practice;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+         int []a=new int[5];
+         
+         a[0]=800;
+         a[1]=170;
+         a[2]=600;
+         a[3]=500;
+         a[4]=400;
+         
+         for(int b:a) {
+        	 System.out.println(b);
+         }
+	}
+
+}
