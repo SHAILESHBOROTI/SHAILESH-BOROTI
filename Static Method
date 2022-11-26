@@ -1,0 +1,15 @@
+// without static method
+
+public class Test {
+	
+	static void show() {
+		System.out.println("without static method");
+	}
+
+	public static void main(String[] args) {
+           Test t1=new Test();
+          // t1.show();
+           show();
+	}
+
+}
