@@ -1,0 +1,17 @@
+
+
+// we can overload the main() method in java.
+
+public class OverloadMain {
+	
+	public static void main(int a) {
+		
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+        System.out.println("main method invoked");
+        main(6);
+	}
+
+}
